@@ -1,17 +1,16 @@
-<p>
-ALGO:XEVAN
-Dark Gravity wave retarget
-250k Collateral
-Final POW block  100000
-POW blocks every 5 minutes
-instant-tx
-Darksend
-Obfuscation:coinjoin
-rpc: 72013 p2p: 25070
-Premine for swap 30000000 
-- 10% Pos reward roughly every 40k blocks
-+ %90 to pos and MN
-</p>
+
+<p>ALGO:XEVAN</p>
+<p>Dark Gravity wave retarget</p>
+<p>250k Collateral</p>
+<p>Final POW block  100000</p>
+<p>POW blocks every 5 minutes</p>
+<p>instant-tx</p>
+<p>Darksend</p>
+<p>Obfuscation:coinjoin</p>
+<p>rpc: 72013 p2p: 25070</p>
+<p>Premine for swap 30000000 </p>
+<p>- 10% Pos reward roughly every 40k blocks</p>
+<p>+ %90 to pos and MN</p>
 
 <p>
 sk21 Windows wallet with 250000k 
