@@ -12,9 +12,9 @@
 <p>- 10% Pos reward roughly every 40k blocks</p>
 <p>+ %90 to pos and MN</p>
 
-<p>
-sk21 Windows wallet with 250000k 
-
+<p>-------------------------------------
+sk21 Windows wallet with 250000k ??
+-----------------------------------------------------------------------
 Go to Tools -> Debug console and enter the command "masternode genkey".
 
 In Debug Console enter the command "getaccountaddress MyMasternode".
@@ -22,10 +22,10 @@ In Debug Console enter the command "getaccountaddress MyMasternode".
 send exactly 250000 to the address generated
 
 Enter "masternode outputs" and copy the output
-
+------------------------------------------------------------------------
 Edit masternode.conf 
 </p>
-
+-----------------------------------------------------------------------
 <p>
 It should look something like this</p>
 -------------------------------------------------------------------------------------------------------
