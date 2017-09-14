@@ -1,0 +1,26 @@
+[Unit]
+Description=Skull's distributed currency daemon
+After=network.target
+
+[Service]
+User=skull
+Group=skull
+
+Type=forking
+PIDFile=/var/lib/skulld/skulld.pid
+
+ExecStart=/usr/bin/skulld -daemon -pid=/var/lib/skulld/skulld.pid \
+          -conf=/etc/skull/skull.conf -datadir=/var/lib/skulld
+
+ExecStop=-/usr/bin/skull-cli -conf=/etc/skull/skull.conf \
+         -datadir=/var/lib/skulld stop
+
+Restart=always
+PrivateTmp=true
+TimeoutStopSec=60s
+TimeoutStartSec=2s
+StartLimitInterval=120s
+StartLimitBurst=5
+
+[Install]
+WantedBy=multi-user.target

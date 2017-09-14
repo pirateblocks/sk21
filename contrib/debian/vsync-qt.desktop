@@ -1,0 +1,12 @@
+[Desktop Entry]
+Encoding=UTF-8
+Name=Skull
+Comment=Skull P2P Cryptocurrency
+Comment[fr]=Skull, monnaie virtuelle cryptographique pair à pair
+Comment[tr]=Skull, eşten eşe kriptografik sanal para birimi
+Exec=skull-qt %u
+Terminal=false
+Type=Application
+Icon=vsync128
+MimeType=x-scheme-handler/skull;
+Categories=Office;Finance;
