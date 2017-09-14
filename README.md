@@ -11,8 +11,9 @@ rpc: 72013 p2p: 25070
 Premine for swap 30000000 
 - 10% Pos reward roughly every 40k blocks
 + %90 to pos and MN
----------------------------------------------------------------------------------------------------------------------
+</p>
 
+<p>
 sk21 Windows wallet with 250000k 
 
 Go to Tools -> Debug console and enter the command "masternode genkey".
