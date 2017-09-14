@@ -28,8 +28,9 @@ Edit masternode.conf
 </p>
 
 <p>
-It should look something like this
-<masternode> <yourip:25070> <PRIVATEKEY> <Proof of transaction> </p>
+It should look something like this</p>
+-------------------------------------------------------------------------------------------------------
+<p><masternode> <yourip:25070> <PRIVATEKEY> <Proof of transaction> </p>
 
 <p>rpcuser=</p>
 <p>rpcpassword=</p>
@@ -44,7 +45,7 @@ It should look something like this
 <p>bind=your public ip address:25070</p>
 <p>masternodeaddr=your public ip address:25070</p>
 <p>masternodeprivkey= Masternode private key output </p>
-
+-----------------------------------------------------------------------------------------------------------
 Restart your wallet
 Activate your MN in Masternode tab 
 Your wallet must be unlocked for MN to earn
